@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(163, 163, 163);
+}
+nav{
+    background-color:#000;
+    float: none;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+.logo img{
+    float: left;
+    width: 90px;
+    height: 85px;
+    margin-left: 2%;
+}
+.nav-ul{
+    list-style-type: none;
+    margin: 5;
+   
+}
+li{
+    height: 70px;
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    line-height: 80px;
+    padding: 0 50px;
+    margin-top:0%;
+}
+nav li:hover{
+    background:#cc0000;
+    transition: .3s;
+}
+section{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    z-index: -1;
+}
+h2{
+    font-size: 25px;
+    width: 35%;
+    left: 35%;
+    text-align: left;
+    padding: 15px;
+}
+#lab_social_icon_footer {
+    padding: 0px 0;
+    background-color: #000000;
+}
+  
+#lab_social_icon_footer a {
+    color: rgb(255, 255, 255);
+}
+  
+  
