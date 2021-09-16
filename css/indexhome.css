@@ -11,6 +11,7 @@ nav{
     width: 100%;
     position: fixed;
     text-align: center;
+    top:0;
 }
 .logo img{
     float: left;
@@ -90,13 +91,20 @@ button:active{
 .video{
     margin-top: 25%;
 }
-#lab_social_icon_footer {
-    padding: 40px 0;
-    background-color: #000000;
-  }
-  
-  #lab_social_icon_footer a {
-    color: rgb(255, 255, 255);
-  }
+footer{
+    background-color: #000;
+    height: 50px;
+    bottom: 0;
+}
+.fab {
+    color:#fff;
+    height: 40px;
+    padding: 15px;
+    bottom: 0;
+}
+.icons{
+   text-align: center;
+   bottom:0;
+}
   
   
